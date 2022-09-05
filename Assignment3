@@ -1,0 +1,143 @@
+1). Write a program to accept 2 numbers and print the sum on HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Show Sum of 2 Numbers</title>
+    <script>
+        let sum = 0;
+        let number = 0;
+        while (number >= 0) {
+            sum += number;
+            number = parseInt(prompt('Enter a number: '));
+            if (isNaN(number)) {
+                console.log('You entered a string.');
+                number = 0;
+                continue;
+            }
+        }
+        document.write(`Sum is ${sum}`);    
+    </script>
+</head>
+<body>
+</body>
+</html>
+
+2). Marriage Eligible calculator
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Marriage Eligible program</title>
+    <script>
+
+        try {
+            let number = 21;
+            while (number <= 21) {
+                number = parseInt(prompt('Enter your age: '));
+                if (number <= 21) {
+                    alert('Have some Patience')
+                    number = 0;
+                    continue;
+                }
+                if (number > 21) throw "Eligible"
+                {
+                    break
+                }
+            }
+        }
+        catch (err) {
+            document.write("Error: " + err);
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
+
+3).Display course information
+class Courses {
+  constructor(courseName, price,validity,trainerName,phoneNumber) {
+    this.courseName = courseName;
+    this.price = price;
+    this.validity = validity;
+    this.trainerName = trainerName;
+    this.phoneNumber = phoneNumber;
+  }
+  showDetails()
+    {
+        console.log(`Thank you for showing interest in ${this.courseName} current price is
+        ${this.price} and validity of course is ${this.validity} if you have any query
+         reach out to ${this.trainerName} and mobile number ${this.phoneNumber}`);
+    }
+}
+let course1 = new Courses("Testing","12000","6 Months","Mukesh","999999999");
+course1.showDetails();
+
+4). Display Course information with getter Method
+class Courses {
+   constructor(courseName, price,validity,trainerName,phoneNumber) {
+     this.courseName = courseName;
+     this.price = price;
+     this.validity = validity;
+     this.trainerName = trainerName;
+     this.phoneNumber = phoneNumber;
+   }
+        
+    getMethod()
+    {
+        return console.log(this.courseName +" "+ this.price +" "+ this.validity+" "+this.trainerName+" "+this.phoneNumber)
+      }
+ }
+ let course1 = new Courses("Testing","12000","6 Months","Mukesh","999999999");
+ course1.getMethod();
+
+5). Write Course information with getter and setter methods
+class Courses {
+    constructor(courseName, price, validity, trainerName, phoneNumber) {
+        this.courseName = courseName;
+        this.price = price;
+        this.validity = validity;
+        this.trainerName = trainerName;
+        this.phoneNumber = phoneNumber;
+    }
+
+    getMethod() {
+        return console.log(this.courseName + " " + this.price + " " + this.validity + " " + this.trainerName + " " + this.phoneNumber)
+    }
+
+    setMethod(courseName, price, validity, trainerName, phoneNumber) {
+        this.courseName = courseName;
+        this.price = price;
+        this.validity = validity;
+        this.trainerName = trainerName;
+        this.phoneNumber = phoneNumber;
+    }
+}
+let course1 = new Courses("Testing", "12000", "6 Months", "Mukesh", "999999999");
+course1.setMethod("Testing1", "6000", "3 Months", "Rakesh", "1111111");
+course1.getMethod();
+
+
+
+
+
+6).Export Multiple Objects and then import
+Export.js
+export class Courses {
+    constructor(courseName, price, validity, trainerName, phoneNumber) {
+        this.courseName = courseName;
+        this.price = price;
+        this.validity = validity;
+        this.trainerName = trainerName;
+        this.phoneNumber = phoneNumber;
+    }
+}
+
+export let course1 = new Courses("Testing", "12000", "6 Months", "Mukesh", "999999999");
+export let course2 = new Courses("Testing1", "6000", "6 Months", "Mukesh1", "11111111");
+export let course3 = new Courses("Testing2", "3000", "6 Months", "Mukesh2", "22222222");
+
+Import.js
+import { course2 } from "./export.js";
+
+console.log(course2);
+
