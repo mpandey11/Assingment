@@ -1,0 +1,94 @@
+
+1). Create category using cypress with data from fixture
+     
+    Ans :-
+     1).support>commands.js
+
+
+   Cypress.Commands.add('login', (email, password) => {
+      cy.visit('https://ineuron-courses.vercel.app/login')
+      cy.get('[name*="email"]').type(email).should("have.value", email)
+      cy.get('[name*="password"]').type(password).should("have.value", password)
+      cy.get('.submit-btn').should("be.enabled").click()
+})
+
+
+Cypress.Commands.add('logout', () => {
+      cy.xpath("//button[contains(text(),'Sign out')]").should("be.enabled").click()
+})
+
+   2).Fixture>cypressCoursedata.json
+
+
+   {
+   "username": "ineuron@ineuron.ai",
+   "password": "ineuron",
+   "coursename": "testing",
+   "description": "software testing",
+   "instructor": "Manoj",
+   "price":"200",
+   "sdate":"30",
+   "edate":"30",
+   "category":"Testing"
+}
+
+3).Cypress Test
+
+   describe('Create Course - Delete Course Fixture', function() {
+      
+      before(function(){
+            cy.fixture('cypressData').then(function(data){
+               this.data=data
+        })
+           })
+
+      it('Create course',function() 
+      {
+            cy.login("ineuron@ineuron.ai","ineuron")
+            cy.contains("Manage").realHover()
+            cy.wait(3000)
+            cy.contains("Manage Courses").click()
+            cy.contains("Add New Course").click({ force: true })
+            cy.xpath("//button[contains(text(),'Save')]").should("be.enabled").click()
+            cy.get('h2.errorMessage').contains("Please select a thumbnail!")
+            const imgfile = 'test.jpg';
+            cy.get('#thumbnail').attachFile("test.jpg");
+            cy.get('input#name').type(this.data.coursename)
+            cy.get('#description').type(this.data.description).should("have.value", this.data.description)
+            cy.get('#instructorNameId').type(this.data.instructor,{delay:300}).should("have.value", this.data.instructor)
+            cy.get('#price').clear().type(this.data.price).should("have.value", this.data.price)
+            cy.get('[name^="startDate"]',{ retries: 2, delay: 300 }).click({force: true})
+            cy.xpath("(//div[@class='react-datepicker__month'])//div").as('date')
+               .each(($el,index,$list)=> {
+                 let sdate = $el.text()
+                 if(sdate == "30")
+                 {
+                          cy.wrap($el,{ retries: 2, delay: 500 }).click({force: true})
+                 }
+               })
+               cy.wait(3000)   
+            cy.get('[name^="endDate"]',{ retries: 2, delay: 500 }).click({force: true})
+            cy.xpath("(//div[@class='react-datepicker__month'])//div").as('date1')
+               .each(($el1,index,$list)=> {
+                 let edate = $el1.text()
+                 if(edate == "30")
+                 {
+                          cy.wrap($el1,{ retries: 2, delay: 500 }).click({force: true})
+                 }
+               })
+            cy.wait(3000)
+            cy.get('button.menu-btn ').click()
+            cy.get('.menu-items').contains(this.data.category).click()
+            cy.xpath("//button[contains(text(),'Save')]").should("be.enabled").click()
+            cy.wait(3000)
+            cy.get('table.courses-table.table.table-borderless').contains('td', 'testing').scrollIntoView().should('be.visible')
+            cy.get('table.courses-table.table.table-borderless tr').contains('testing').scrollIntoView().parent().within(()=>{
+                 cy.get('td').get('.action-btn.delete-btn').click({force: true})
+            })
+            cy.wait(3000)
+            cy.get('table.courses-table').contains('tr', 'testing').should('not.exist',this.data.category)
+            cy.logout()
+      })
+})
+
+     
