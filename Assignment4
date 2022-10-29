@@ -1,0 +1,51 @@
+1). Verify URL and title open https://ineuron-courses.vercel.app/login , verify title contains courses, url contains login
+Ans :- 
+describe('login spec', () => {
+  it('login', () => {
+    cy.visit('https://ineuron-courses.vercel.app/login')
+    cy.title('cypresstest')
+  })
+
+2). Login and Logout
+it('login with new credential', () => {
+    cy.visit('https://ineuron-courses.vercel.app/login')
+    cy.get('[name*="email"]').type("ineuron@ineuron.ai").should("have.value","ineuron@ineuron.ai")
+    cy.get('[name*="password"]').type("ineuron").should("have.value","ineuron")
+    cy.get('.submit-btn').should("be.enabled").click()
+    cy.get('.home > h4').contains("Welcome iNeuron to iNeuron Courses")
+    cy.get('.navbar-menu-links > button').click()
+})
+
+3). Write 4 test in same suite for verifying error message.
+it('login with blank username and password credential', () => {
+  cy.visit('https://ineuron-courses.vercel.app/login')
+  cy.get('[name*="email"]').invoke('val', '')
+  cy.get('[name*="password"]').invoke('val', '')
+  cy.get('.submit-btn').should("be.enabled").click()
+  cy.get('h2.errorMessage').contains("Email and Password is required")
+ })
+
+ it('login with blank password credential', () => {
+  cy.visit('https://ineuron-courses.vercel.app/login')
+  cy.get('[name*="email"]').type("ineuron@ineuron.ai").should("have.value","ineuron@ineuron.ai")
+  cy.get('[name*="password"]').invoke('val', '')
+  cy.get('.submit-btn').should("be.enabled").click()
+  cy.get('h2.errorMessage').contains("Password is required")
+ })
+
+ it('login with blank username credential', () => {
+  cy.visit('https://ineuron-courses.vercel.app/login')
+  cy.get('[name*="email"]').invoke('val', '')
+  cy.get('[name*="password"]').type("ineuron").should("have.value","ineuron")
+  cy.get('.submit-btn').should("be.enabled").click()
+  cy.get('h2.errorMessage').contains("Email is required")
+ })
+
+ it('login with incorrect credential', () => {
+  cy.visit('https://ineuron-courses.vercel.app/login')
+  cy.get('[name*="email"]').type("mpandey11@ineuron.ai").should("have.value","mpandey11@ineuron.ai")
+  cy.get('[name*="password"]').type("ineuron").should("have.value","ineuron")
+  cy.get('.submit-btn').should("be.enabled").click()
+  cy.get('h2.errorMessage').contains("USER Email Doesn't Exist")
+ })
+
