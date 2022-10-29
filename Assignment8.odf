@@ -1,0 +1,900 @@
+{\rtf1\ansi\deff0\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\fswiss\fprq2\fcharset128 Arial;}{\f4\fnil\fprq0\fcharset0 Consolas{\*\falt Courier New};}{\f5\froman\fprq0\fcharset128 ;}{\f6\fnil\fprq2\fcharset0 Microsoft YaHei;}{\f7\fswiss\fprq2\fcharset0 Lucida Sans;}{\f8\fswiss\fprq0\fcharset128 Lucida Sans;}}
+{\colortbl;\red0\green0\blue0;\red78\green201\blue176;\red212\green212\blue212;\red220\green220\blue170;\red156\green220\blue254;\red206\green145\blue120;\red86\green156\blue214;\red106\green153\blue85;\red181\green206\blue168;\red79\green193\blue255;\red197\green134\blue192;\red30\green30\blue30;\red128\green128\blue128;}
+{\stylesheet{\s0\snext0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033 Default;}
+{\*\cs15\snext15 RTF_Num 2 1;}
+{\*\cs16\snext16 RTF_Num 2 2;}
+{\*\cs17\snext17 RTF_Num 2 3;}
+{\*\cs18\snext18 RTF_Num 2 4;}
+{\*\cs19\snext19 RTF_Num 2 5;}
+{\*\cs20\snext20 RTF_Num 2 6;}
+{\*\cs21\snext21 RTF_Num 2 7;}
+{\*\cs22\snext22 RTF_Num 2 8;}
+{\*\cs23\snext23 RTF_Num 2 9;}
+{\*\cs24\snext24 RTF_Num 3 1;}
+{\*\cs25\snext25 RTF_Num 3 2;}
+{\*\cs26\snext26 RTF_Num 3 3;}
+{\*\cs27\snext27 RTF_Num 3 4;}
+{\*\cs28\snext28 RTF_Num 3 5;}
+{\*\cs29\snext29 RTF_Num 3 6;}
+{\*\cs30\snext30 RTF_Num 3 7;}
+{\*\cs31\snext31 RTF_Num 3 8;}
+{\*\cs32\snext32 RTF_Num 3 9;}
+{\*\cs33\snext33 Numbering Symbols;}
+{\s34\sbasedon0\snext35{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\sb240\sa120\keepn\cf0\hich\af6\langfe2052\dbch\af7\loch\f2\fs28\lang1033 Heading;}
+{\s35\sbasedon0\snext35{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\sb0\sa120\cf0\hich\af0\langfe2052\dbch\af0\loch\f0\fs24\lang1033 Text body;}
+{\s36\sbasedon35\snext36{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\sb0\sa120\cf0\hich\af0\langfe2052\dbch\af8\loch\f0\fs24\lang1033 List;}
+{\s37\sbasedon0\snext37{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\sb120\sa120\cf0\i\hich\af0\langfe2052\dbch\af8\ai\loch\f0\fs24\lang1033 Caption;}
+{\s38\sbasedon0\snext38{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af0\langfe2052\dbch\af8\loch\f0\fs24\lang1033 Index;}
+}{\*\listtable{\list\listtemplateid1
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'03\'00).;}{\levelnumbers\'01;}\fi-360\li720}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'01.;}{\levelnumbers\'01;}\fi-360\li1080}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'02.;}{\levelnumbers\'01;}\fi-360\li1440}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'03.;}{\levelnumbers\'01;}\fi-360\li1800}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'04.;}{\levelnumbers\'01;}\fi-360\li2160}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'05.;}{\levelnumbers\'01;}\fi-360\li2520}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'06.;}{\levelnumbers\'01;}\fi-360\li2880}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'07.;}{\levelnumbers\'01;}\fi-360\li3240}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'08.;}{\levelnumbers\'01;}\fi-360\li3600}\listid1}
+{\list\listtemplateid2
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-432\li432}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-576\li576}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-720\li720}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-864\li864}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-1008\li1008}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-1152\li1152}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-1296\li1296}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-1440\li1440}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-1584\li1584}\listid2}
+}{\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}{\info{\creatim\yr0\mo0\dy0\hr0\min0}{\revtim\yr0\mo0\dy0\hr0\min0}{\printim\yr0\mo0\dy0\hr0\min0}{\comment OpenOffice}{\vern4170}}\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709\deftab709
+
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse195\pgwsxn12240\pghsxn15840\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\pgdscnxt0 Default;}}
+\formshade{\*\pgdscno0}\paperh15840\paperw12240\margl1134\margr1134\margt1134\margb1134\sectd\sbknone\sectunlocked1\pgndec\pgwsxn12240\pghsxn15840\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+\pgndec\pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\listtext\pard\plain  1).\tab}\ilvl0\ls1 \li0\ri0\lin0\rin0\fi-360\tx720\li720\ri0\lin720\rin0\fi-360{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+Create category using cypress with data from fixture}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\fs28\loch\f3
+     }
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\fs28\loch\f3
+    }{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+Ans :-}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\fs28\loch\f3
+     }{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+1).support>commands.js}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\rtlch \ltrch\loch\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\rtlch \ltrch\loch\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs26\rtlch \ltrch\fs26\loch\f3
+   }{\cf10\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+Cypress}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+.}{\cf5\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+Commands}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+.}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+add}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+(}{\cf6\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+'login'}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+, (}{\cf5\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+email}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+, }{\cf5\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+password}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+) }{\cf7\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+=>}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+ \{}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs26\rtlch \ltrch\fs26\loch\f3
+\~  \~  }{\cf10\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+cy}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+.}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+visit}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+(}{\cf6\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+'https://ineuron-courses.vercel.app/login'}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs26\rtlch \ltrch\fs26\loch\f3
+\~  \~  }{\cf10\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+cy}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+.}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+get}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+(}{\cf6\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+'[name*="email"]'}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+).}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+type}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+(}{\cf5\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+email}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+).}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+should}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+(}{\cf6\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+"have.value"}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+, }{\cf5\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+email}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs26\rtlch \ltrch\fs26\loch\f3
+\~  \~  }{\cf10\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+cy}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+.}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+get}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+(}{\cf6\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+'[name*="password"]'}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+).}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+type}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+(}{\cf5\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+password}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+).}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+should}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+(}{\cf6\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+"have.value"}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+, }{\cf5\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+password}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs26\rtlch \ltrch\fs26\loch\f3
+\~  \~  }{\cf10\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+cy}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+.}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+get}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+(}{\cf6\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+'.submit-btn'}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+).}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+should}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+(}{\cf6\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+"be.enabled"}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+).}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+click}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+()}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+\})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\afs26\rtlch \ltrch\loch\fs26\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\afs26\rtlch \ltrch\loch\fs26\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf10\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+Cypress}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+.}{\cf5\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+Commands}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+.}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+add}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+(}{\cf6\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+'logout'}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+, () }{\cf7\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+=>}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+ \{}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs26\rtlch \ltrch\fs26\loch\f3
+\~  \~  }{\cf10\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+cy}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+.}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+xpath}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+(}{\cf6\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+"//button[contains(text(),'Sign out')]"}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+).}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+should}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+(}{\cf6\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+"be.enabled"}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+).}{\cf4\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+click}{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+()}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+\})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\b0\chcbpat12\afs26\rtlch \ltrch\loch\fs26\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\fs28\loch\f3
+   }{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+2).Fixture>cypressCoursedata.json}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\fs28\loch\f3
+   }{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\{}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"username"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+: }{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"ineuron@ineuron.ai"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"password"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+: }{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"ineuron"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"coursename"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+: }{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"testing"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"description"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+: }{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"software testing"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"instructor"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+: }{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"Manoj"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"price"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+:}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"200"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"sdate"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+:}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"30"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"edate"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+:}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"30"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"category"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+:}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"Testing"}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\}}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\b0\chcbpat12\rtlch \ltrch\loch\fs21\loch\f4
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\b0\chcbpat12\rtlch \ltrch\loch\fs21\loch\f4
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\fs28\loch\f3
+  }
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\fs28\loch\f3
+     }
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\fs28\loch\f3
+    }{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+3).Cypress Test}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\fs28\loch\f3
+   }{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+describe}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'Create Course - Delete Course Fixture'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+, }{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+function}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+() \{}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  }
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  }{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+before}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+function}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+()\{}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+fixture}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'cypressData'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+then}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+function}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+data}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)\{}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  }{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+this}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+data}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+=}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+data}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~ }{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~ }{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  }{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+it}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'Create course'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+function}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+() }
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  }{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\{}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+login}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"ineuron@ineuron.ai"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"ineuron"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+contains}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"Manage"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+realHover}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+()}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+wait}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf9\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+3000}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+contains}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"Manage Courses"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+click}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+()}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+contains}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"Add New Course"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+click}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(\{ }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+force:}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+true}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ \})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+xpath}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"//button[contains(text(),'Save')]"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+should}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"be.enabled"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+click}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+()}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'h2.errorMessage'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+contains}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"Please select a thumbnail!"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+const}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+imgfile}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ = }{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'test.jpg'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+;}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'#thumbnail'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+attachFile}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"test.jpg"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+);}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'input#name'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+type}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+this}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+data}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+coursename}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'#description'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+type}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+this}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+data}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+description}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+should}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"have.value"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+, }{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+this}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+data}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+description}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'#instructorNameId'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+type}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+this}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+data}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+instructor}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,\{}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+delay:}{\cf9\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+300}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\}).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+should}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"have.value"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+, }{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+this}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+data}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+instructor}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'#price'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+clear}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+().}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+type}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+this}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+data}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+price}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+should}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"have.value"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+, }{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+this}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+data}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+price}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'[name^="startDate"]'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,\{ }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+retries:}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf9\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+2}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+, }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+delay:}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf9\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+300}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ \}).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+click}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(\{}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+force:}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+true}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+xpath}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"(//div[@class='react-datepicker__month'])//div"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+as}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'date'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  }{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+each}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+((}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+$el}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+index}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+$list}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+=>}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ \{}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  \~ }{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+let}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+sdate}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ = }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+$el}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+text}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+()}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  \~ }{\cf11\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+if}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+sdate}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ == }{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"30"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  \~ }{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\{}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  \~  \~  \~  \~ }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+wrap}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+$el}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,\{ }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+retries:}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf9\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+2}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+, }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+delay:}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf9\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+500}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ \}).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+click}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(\{}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+force:}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+true}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  \~ }{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\}}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  }{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+wait}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf9\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+3000}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+) \~ }
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'[name^="endDate"]'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,\{ }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+retries:}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf9\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+2}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+, }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+delay:}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf9\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+500}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ \}).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+click}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(\{}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+force:}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+true}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+xpath}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"(//div[@class='react-datepicker__month'])//div"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+as}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'date1'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  }{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+each}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+((}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+$el1}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+index}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+$list}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+=>}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ \{}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  \~ }{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+let}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+edate}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ = }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+$el1}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+text}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+()}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  \~ }{\cf11\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+if}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+edate}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ == }{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"30"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  \~ }{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\{}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  \~  \~  \~  \~ }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+wrap}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+$el1}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,\{ }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+retries:}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf9\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+2}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+, }{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+delay:}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf9\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+500}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ \}).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+click}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(\{}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+force:}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+true}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  \~ }{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\}}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  }{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+wait}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf9\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+3000}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'button.menu-btn '}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+click}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+()}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'.menu-items'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+contains}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+this}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+data}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+category}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+click}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+()}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+xpath}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"//button[contains(text(),'Save')]"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+should}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+"be.enabled"}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+click}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+()}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+wait}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf9\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+3000}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'table.courses-table.table.table-borderless'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+contains}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'td'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+, }{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'testing'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+scrollIntoView}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+().}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+should}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'be.visible'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'table.courses-table.table.table-borderless tr'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+contains}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'testing'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+scrollIntoView}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+().}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+parent}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+().}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+within}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(()}{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+=>}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\{}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  \~  \~ }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'td'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'.action-btn.delete-btn'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+click}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(\{}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+force:}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+ }{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+true}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+wait}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf9\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+3000}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+get}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'table.courses-table'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+contains}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'tr'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+, }{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'testing'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+).}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+should}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+(}{\cf6\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+'not.exist'}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+,}{\cf7\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+this}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+data}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf5\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+category}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+)}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  \~  \~  }{\cf10\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+cy}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+.}{\cf4\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+logout}{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+()}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\chcbpat12\afs28\rtlch \ltrch\fs28\loch\f3
+\~  \~  }{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\b0\chcbpat12\afs28\rtlch \ltrch\loch\fs28\loch\f3
+\})}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\loch\fs28\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs26\rtlch \ltrch\loch\fs26\loch\f3
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\b0\chcbpat12\rtlch \ltrch\loch\fs21\loch\f4
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033\sl285\slmult0{\cf3\b0\chcbpat12\rtlch \ltrch\loch\fs21\loch\f4
+}
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\fs28\loch\f3
+ }
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\fs28\loch\f3
+    }
+\par \pard\plain \s0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af5\langfe2052\dbch\af7\afs24\lang1081\loch\f0\fs24\lang1033{\afs28\rtlch \ltrch\fs28\loch\f3
+     }
+\par }
