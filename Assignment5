@@ -1,0 +1,49 @@
+1). Create new User and login with same user
+      Ans :-
+
+     describe('Registration form', () => {
+            it('create a new user', () => {
+                  cy.visit('https://ineuron-courses.vercel.app/login')
+                  cy.viewport(1920,1080)
+                  cy.contains('New user? Signup').click()
+                  cy.contains('Sign up').should("be.disabled")
+                  cy.get("input[name='name']").type("manojpandey")
+                  cy.get("input[name='email']").type("mpandey116@gmail.com")
+                  cy.get("input[name='password']").type("manojpandey")
+                  cy.xpath("//label[text()='Testing']/preceding-sibling::input").click()
+                  cy.get("input[type='radio']").first().click()
+                  cy.get("select[name='state']").select("Goa")
+                  cy.contains('Sign up').should("be.enabled").click()
+                  cy.wait(5000)
+                    cy.get('[name*="email"]').type("mpandey11@gmail.com").should("have.value","mpandey11@gmail.com")
+                  cy.get('[name*="password"]').type("manojpandey").should("have.value","manojpandey")
+                  cy.get('.submit-btn').should("be.enabled").click()
+                  cy.get('.navbar-menu-links > button').click()
+                  cy.get('.header').should("be.visible")
+            })
+      })
+
+2). Create new User and login with same user with xpath
+      Ans :-
+      
+      describe('Create new Login', () => {
+        it('Create new Login', () => {
+                cy.visit('https://ineuron-courses.vercel.app/login')
+                cy.viewport(1920, 1080)
+                cy.contains('New user? Signup').click()
+                cy.contains('Sign up').should("be.disabled")
+                cy.xpath("//input[@id='name']").type("manojpandey")
+                cy.xpath("//input[@id='email']").type("mpandey118@gmail.com")
+                cy.xpath("//input[@id='password']").type("manojpandey")
+                cy.xpath("//label[text()='Testing']/preceding-sibling::input").click()
+                cy.xpath("//label[text()='Male']/preceding-sibling::input").click()
+                cy.xpath("//select[@id='state']").select("Goa")
+                cy.contains('Sign up').should("be.enabled").click()
+                cy.wait(5000)
+                cy.xpath("//input[starts-with(@id,'email')]").type("mpandey11@gmail.com").should("have.value", "mpandey11@gmail.com")
+                cy.xpath("//input[starts-with(@id,'password')]").type("manojpandey").should("have.value", "manojpandey")
+                cy.xpath("//button[contains(text(),'Sign in')]").should("be.enabled").click()
+                cy.xpath("//button[contains(text(),'Sign out')]").click()
+                cy.get('.header').should("be.visible")
+        })
+})
