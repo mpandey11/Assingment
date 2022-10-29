@@ -1,0 +1,50 @@
+
+1). Create 5 User using data driven test in cypress
+     
+    Ans :-
+     1).Fixture>create 5 user.json files
+{
+      "userName": "manoj",
+      "email": "mpandey3001@gmail.com",
+      "password": "manojpandey",
+      "state": "Goa"
+   }
+
+   
+    2).Cypress Test
+
+   describe('Create Multiple Course Delete Course Fixture', function() {
+
+const availableUsers = [{name:"user1"},{name:"user2"},{name:"user3"},{name:"user4"},{name:"user5"}]
+
+availableUsers.forEach(users => {
+      describe('users context', () => {
+            let data;
+            beforeEach(function () {
+                  cy.fixture(users.name).then((fdata => {
+                        data = fdata;
+                  }))
+
+            })
+      it('create a new user Registrations' + users.name, () => {
+            cy.visit('https://ineuron-courses.vercel.app/login')
+            cy.viewport(1920, 1080)
+            cy.contains('New user? Signup').click()
+            cy.contains('Sign up').should("be.disabled")
+            cy.get("input[name='name']").type(data.userName)
+            cy.get("input[name='email']").type(data.email)
+            cy.get("input[name='password']").type(data.password)
+            cy.xpath("//label[text()='Testing']/preceding-sibling::input").click()
+            cy.get("input[type='radio']").first().click()
+            cy.get("select[name='state']").select(data.state)
+            cy.contains('Sign up').should("be.enabled").click()
+            cy.wait(5000)
+            cy.get('[name*="email"]').type(data.email).should("have.value",data.email)
+            cy.get('[name*="password"]').type(data.password).should("have.value",data.password)
+            cy.get('.submit-btn').should("be.enabled").click()
+            cy.get('.navbar-menu-links > button').click()
+            cy.get('.header').should("be.visible")
+      })
+})
+})
+})
