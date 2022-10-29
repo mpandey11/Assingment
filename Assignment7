@@ -1,0 +1,51 @@
+
+1). Setup Mocha Awesome Report
+      
+     Ans :-
+    
+     module.exports = defineConfig({
+   reporter: 'cypress-mochawesome-reporter',
+   reporterOptions: {
+      charts: true,
+      reportPageTitle: 'Automation',
+      embeddedScreenshots: true,
+      inlineAssets: true,
+      saveAllAttempts: false,
+      autoOpen:true,
+      timestamp:"longDate",
+      overwrite:false,
+      code:false
+   },
+   e2e: {
+      setupNodeEvents(on, config) {
+         // implement node event listeners here
+         require('cypress-mochawesome-reporter/plugin')(on);
+      },
+      watchForFileChanges: false,
+      retries:
+      {
+         runMode:2,
+         openMode:1,
+      }
+   },
+
+---npx cypress run –e2e
+
+
+2). Execute all the report in chrome headed mode
+
+    Ans :- npx cypress run --spec "cypress/e2e/**/*"  --no-exit --headed –browser=chrome
+
+     3). Execute only course creation the report in firefox headed mode
+
+    Ans :- npx cypress run --spec "cypress/e2e/createCourse/**/*" --no-exit --headed  --browser=firefox
+
+
+
+     
+    4). Execute all login test case in electron headless mode
+
+    Ans :- npx cypress run --spec "cypress/e2e/login**/*" --no-exit --headless   
+              --browser=electron
+
+    
